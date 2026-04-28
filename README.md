@@ -49,8 +49,10 @@
 在 Claude Code、Codex、OpenClaw 等支持 Skill 的 Agent 里，直接说：
 
 ```
-帮我安装这个 skill：https://github.com/KKKKhazix/khazix-skills/tree/main/neat-freak
+帮我安装这个 skill：https://github.com/KKKKhazix/khazix-skills/tree/main/<skill-name>
 ```
+
+把 `<skill-name>` 换成你想装的那个，比如 `neat-freak`、`hv-analysis`、`khazix-writer`。
 
 </details>
 
@@ -85,10 +87,10 @@ cp -r khazix-skills/neat-freak ~/.claude/skills/
 
 ```bash
 # ClawHub
-clawhub install neat-freak
+clawhub install <skill-name>
 
 # Tessl
-tessl install khazix-skills/neat-freak
+tessl install khazix-skills/<skill-name>
 ```
 
 </details>
